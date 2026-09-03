@@ -2,29 +2,55 @@
 
 # GeniusBotsLab
 
-**AI Automation Engineer · AI-assisted Developer · AI Video Workflow Builder**
+## AI-агентные системы · Long-running workflow · Надёжная автоматизация
 
-I build practical, human-reviewed AI workflows for automation, software delivery and video production.
+**10+ лет независимой практики в разработке, интеграциях и цифровой автоматизации.**
 
-[View the full multilingual portfolio →](https://github.com/GeniusBotsLab/im)
+Проектирую и внедряю управляемые AI-системы для многошаговых рабочих процессов: агенты исследуют, планируют, выполняют, проверяют результат и передают его в бизнес-процесс. Важные действия остаются под контролем человека.
+
+[Полное мультиязычное портфолио →](https://github.com/GeniusBotsLab/im) · [Română](docs/ro.md) · [Написать в Telegram →](https://t.me/TheBotsLab)
 
 </div>
 
-## Focus
+## Что строю
 
-- AI automation, agent workflows and system integrations
-- AI-assisted software delivery with Claude, Claude Code, ChatGPT and Cursor
-- AI-assisted video workflows: concept, scene generation, editing, captions and quality control
-- LLMOps / AgentOps foundations: model routing, logs, fallback paths, budgets and human approval
+- **Агентные системы и оркестрация ролей** — исследование, планирование, выполнение, QA, отчётность и контролируемая передача результата.
+- **Длительные workflow** — очереди, статусы, повторные попытки, чекпоинты, планировщики, логи, уведомления и ручное подтверждение критических действий.
+- **AI-assisted software delivery** — агенты помогают анализировать, реализовывать, тестировать и документировать изменения; архитектура, безопасность, ревью и ответственность остаются за мной.
+- **Практическая автоматизация** — контент, изображения, видео, озвучка, SEO, SMM, разрешённые email-коммуникации, рекламная аналитика и внутренние операции.
 
-## Selected public work
+## Инженерный подход
 
-- [Swarm Agent Coordinator](https://github.com/GeniusBotsLab/swarm-agent-coordinator) — self-hosted coordination for teams of AI agents.
-- [TextFix](https://github.com/GeniusBotsLab/textfix) — AI-assisted typo correction for Windows.
-- [Full portfolio](https://github.com/GeniusBotsLab/im) — multilingual profile, public-work index and workflow approach.
+```text
+Аудит процесса → Метрики пилота → Роли агентов и права доступа →
+Реализация → Тесты и QA → Контролируемый запуск →
+Логи, стоимость, качество → Улучшение
+```
 
-## Contact
+Для каждого workflow закладываю проверяемые критерии качества, лимиты действий и токен-бюджета, наблюдаемость и точки human-in-the-loop. Экономический эффект оценивается по фактическим метрикам процесса — времени цикла, ручным часам, стоимости операции и ошибкам — без заранее обещанного ROI.
 
-[Email](mailto:BotsLab@proton.me) · [Telegram](https://t.me/TheBotsLab) · [Portfolio](https://github.com/GeniusBotsLab/im)
+## Рабочий стек
 
-<sub>Public professional profile only. No client data, credentials, private infrastructure or unpublished materials are included.</sub>
+**AI и агенты:** ChatGPT / OpenAI-compatible APIs · Claude · Claude Code · agent roles · tool calling · RAG и stateful workflows
+
+**Разработка и эксплуатация:** Python · TypeScript / JavaScript · SQL · REST API · Webhooks · Docker · Git/GitHub · CI · тесты · базы данных · очереди · мониторинг
+
+**Автоматизация и медиа:** ZennoPoster в разрешённых сценариях · browser/API integrations · Telegram Bot API · ElevenLabs · AI-пайплайны для текста, изображений, видео и голоса
+
+## Избранные публичные проекты
+
+- **[Social Media Crossposter](https://github.com/GeniusBotsLab/social-crossposter-comment-module)** — единое рабочее пространство для публикации текста, изображений и видео в авторизованные аккаунты и каналы через разрешённые интеграции.
+- **[Swarm Agent Coordinator](https://github.com/GeniusBotsLab/swarm-agent-coordinator)** — self-hosted координация команд агентов, задач, ролей и рабочих комнат.
+- **[TextFix](https://github.com/GeniusBotsLab/textfix)** — Windows-утилита для AI-assisted исправления текста через OpenAI-compatible API.
+- **[NeuroMedia Marketplace](https://github.com/GeniusBotsLab/neuromedia-marketplace)** — публичная многоязычная витрина AI Marketplace и безопасная синхронизация каталога.
+- **[Полное портфолио](https://github.com/GeniusBotsLab/im)** — архитектурный подход, workflow и дополнительные публичные работы.
+
+## Границы автоматизации
+
+Работаю только с разрешёнными данными, аккаунтами и интеграциями. Не создаю решения для спама, накрутки, обхода ограничений платформ, несанкционированного доступа или действий без согласия владельца аккаунта и данных.
+
+## Контакт
+
+[Telegram @TheBotsLab](https://t.me/TheBotsLab) · [BotsLab@proton.me](mailto:BotsLab@proton.me) · [Полное портфолио](https://github.com/GeniusBotsLab/im)
+
+<sub>Публичный профиль содержит только самостоятельные продукты и материалы без клиентских данных, ключей, приватной инфраструктуры и закрытых проектов.</sub>
