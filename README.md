@@ -1,56 +1,43 @@
-<div align="center">
-
 # GeniusBotsLab
 
-## AI-агентные системы · Long-running workflow · Надёжная автоматизация
+## Agent orchestration · LLMOps · Software delivery
 
-**10+ лет независимой практики в разработке, интеграциях и цифровой автоматизации.**
+Проектирую управляемые AI-системы: агенты исследуют, планируют, выполняют, проверяют и передают результат в процесс. Критические действия подтверждает человек.
 
-Проектирую и внедряю управляемые AI-системы для многошаговых рабочих процессов: агенты исследуют, планируют, выполняют, проверяют результат и передают его в бизнес-процесс. Важные действия остаются под контролем человека.
+**Стек, который можно нанять:** Python · TypeScript · Go · SQL · REST/webhooks · Docker · CI · очереди · Telegram Bot API · browser automation (ZennoPoster) на системах клиента · AI video/voice pipelines
 
-[Полное мультиязычное портфолио →](https://github.com/GeniusBotsLab/im) · [Română](docs/ro.md) · [Написать в Telegram →](https://t.me/TheBotsLab)
+[Портфолио](https://github.com/GeniusBotsLab/im) · [Telegram @TheBotsLab](https://t.me/TheBotsLab)
 
-</div>
+Работаю только с данными и аккаунтами владельца, официальными API и согласованным доступом. Не делаю спам, накрутку, обход антифрода и чужие учётки.
 
-## Что строю
+## Что поставляю
 
-- **Агентные системы и оркестрация ролей** — исследование, планирование, выполнение, QA, отчётность и контролируемая передача результата.
-- **Длительные workflow** — очереди, статусы, повторные попытки, чекпоинты, планировщики, логи, уведомления и ручное подтверждение критических действий.
-- **AI-assisted software delivery** — агенты помогают анализировать, реализовывать, тестировать и документировать изменения; архитектура, безопасность, ревью и ответственность остаются за мной.
-- **Практическая автоматизация** — контент, изображения, видео, озвучка, SEO, SMM, разрешённые email-коммуникации, рекламная аналитика и внутренние операции.
+- **Оркестрация агентов** — роли, права, очереди, ретраи, логи, human-in-the-loop.
+- **LLMOps / AgentOps** — бюджет токенов, RAG по документам клиента, QA-гейты.
+- **Software delivery** — реализация, тесты, CI; архитектура и релиз на человеке.
+- **Интеграции** — REST, webhooks, CRM, Telegram Bot API, контент-пайплайны.
+- **RPA** — автоматизация кабинетов и back-office, которыми владеет клиент.
 
-## Инженерный подход
+## Код в открытом доступе
 
-```text
-Аудит процесса → Метрики пилота → Роли агентов и права доступа →
-Реализация → Тесты и QA → Контролируемый запуск →
-Логи, стоимость, качество → Улучшение
-```
+- [Swarm Agent Coordinator](https://github.com/GeniusBotsLab/swarm-agent-coordinator) — координация команд агентов на Python.
+- [TextFix](https://github.com/GeniusBotsLab/textfix) — Windows hotkey + OpenAI-compatible API.
+- [NeuroMedia Agent Memory](https://github.com/GeniusBotsLab/neuromedia-agent-memory) — MCP-память, адаптация Memora, MIT.
+- [NeuroMedia Transcriptor](https://github.com/GeniusBotsLab/neuromedia-transcriptor) — локальные транскрипты и AI-резюме.
+- [NeuroMedia ShotCraft](https://github.com/GeniusBotsLab/neuromedia-shotcraft) — Remotion и продуктовое видео.
+- [NeuroMedia Voice Studio](https://github.com/GeniusBotsLab/neuromedia-voice-studio) — speech/audio workflow.
+- [NeuroMedia iOS Builder](https://github.com/GeniusBotsLab/neuromedia-ios-builder) — remote iOS CI helper.
 
-Для каждого workflow закладываю проверяемые критерии качества, лимиты действий и токен-бюджета, наблюдаемость и точки human-in-the-loop. Экономический эффект оценивается по фактическим метрикам процесса — времени цикла, ручным часам, стоимости операции и ошибкам — без заранее обещанного ROI.
+## Операционные модули
 
-## Рабочий стек
+Публичная документация без внутреннего кода и клиентских данных:
 
-**AI и агенты:** ChatGPT / OpenAI-compatible APIs · Claude · Claude Code · agent roles · tool calling · RAG и stateful workflows
-
-**Разработка и эксплуатация:** Python · TypeScript / JavaScript · SQL · REST API · Webhooks · Docker · Git/GitHub · CI · тесты · базы данных · очереди · мониторинг
-
-**Автоматизация и медиа:** ZennoPoster в разрешённых сценариях · browser/API integrations · Telegram Bot API · ElevenLabs · AI-пайплайны для текста, изображений, видео и голоса
-
-## Избранные публичные проекты
-
-- **[Social Media Crossposter](https://github.com/GeniusBotsLab/social-crossposter-comment-module)** — единое рабочее пространство для публикации текста, изображений и видео в авторизованные аккаунты и каналы через разрешённые интеграции.
-- **[Swarm Agent Coordinator](https://github.com/GeniusBotsLab/swarm-agent-coordinator)** — self-hosted координация команд агентов, задач, ролей и рабочих комнат.
-- **[TextFix](https://github.com/GeniusBotsLab/textfix)** — Windows-утилита для AI-assisted исправления текста через OpenAI-compatible API.
-- **[NeuroMedia Marketplace](https://github.com/GeniusBotsLab/neuromedia-marketplace)** — публичная многоязычная витрина AI Marketplace и безопасная синхронизация каталога.
-- **[Полное портфолио](https://github.com/GeniusBotsLab/im)** — архитектурный подход, workflow и дополнительные публичные работы.
-
-## Границы автоматизации
-
-Работаю только с разрешёнными данными, аккаунтами и интеграциями. Не создаю решения для спама, накрутки, обхода ограничений платформ, несанкционированного доступа или действий без согласия владельца аккаунта и данных.
+- [Social workspace](https://github.com/GeniusBotsLab/social-crossposter-comment-module) — публикация в свои каналы через разрешённые интеграции.
+- [TikTok workspace](https://github.com/GeniusBotsLab/tiktok-account-registrator) — контент-операции в авторизованных аккаунтах.
+- [VK workspace](https://github.com/GeniusBotsLab/vk-account-registrator) — контент-операции в авторизованных аккаунтах.
+- [WhatsApp Business HTTP](https://github.com/GeniusBotsLab/whatsapp-core-api) — HTTP-слой для согласованных бизнес-сценариев.
+- [Link quality control](https://github.com/GeniusBotsLab/self-correcting-link-parser) — нормализация URL из корпуса заказчика.
 
 ## Контакт
 
-[Telegram @TheBotsLab](https://t.me/TheBotsLab) · [BotsLab@proton.me](mailto:BotsLab@proton.me) · [Полное портфолио](https://github.com/GeniusBotsLab/im)
-
-<sub>Публичный профиль содержит только самостоятельные продукты и материалы без клиентских данных, ключей, приватной инфраструктуры и закрытых проектов.</sub>
+[Telegram @TheBotsLab](https://t.me/TheBotsLab) · [BotsLab@proton.me](mailto:BotsLab@proton.me)
