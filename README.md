@@ -24,6 +24,7 @@
 
 - **[neuromedia.cloud](https://neuromedia.cloud/)** — a network of AI news channels in 50 languages; every piece is labeled as AI-made and fact-checked by a human editor.
 - **Content factory** — generates video, voice-over and captions and auto-publishes to YouTube; cross-posting to Telegram, WhatsApp and Facebook is in progress. Private repository.
+- **Aport** — an analytical research system: breaks a question into sub-tasks, collects and cross-checks sources, and delivers a report where every fact is backed by a link. Private repository.
 
 ## Код в открытом доступе
 
